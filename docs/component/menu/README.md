@@ -17,29 +17,29 @@ import {Menu, SubMenu, MenuItem} from 'king-ui'
 ## 代码
 
 ```vue
-<z-menu :selected.sync="selected" class="menu-demo-wrapper">
-    <z-menu-item name="draw">绘画</z-menu-item>
-    <z-menu-item name="opera">歌剧</z-menu-item>
-    <z-sub-menu name="sub1">
+<k-menu :selected.sync="selected" class="menu-demo-wrapper">
+    <k-menu-item name="draw">绘画</k-menu-item>
+    <k-menu-item name="opera">歌剧</k-menu-item>
+    <k-sub-menu name="sub1">
         <template slot="title">
             音乐
         </template>
-        <z-sub-menu name="sub2">
+        <k-sub-menu name="sub2">
             <template slot="title">古典音乐</template>
-            <z-menu-item name="baLuoKe">巴洛克主义</z-menu-item>
-            <z-sub-menu name="sub3">
+            <k-menu-item name="baLuoKe">巴洛克主义</k-menu-item>
+            <k-sub-menu name="sub3">
                 <template slot="title">
                     浪漫主义
                 </template>
-                <z-menu-item name="liSiTe">李斯特</z-menu-item>
-                <z-menu-item name="brams">勃拉姆斯</z-menu-item>
-            </z-sub-menu>
-            <z-menu-item name="classic">古典主义</z-menu-item>
-        </z-sub-menu>
-        <z-menu-item name="rock">摇滚</z-menu-item>
-        <z-menu-item name="rb">R&B</z-menu-item>
-    </z-sub-menu>
-</z-menu>
+                <k-menu-item name="liSiTe">李斯特</k-menu-item>
+                <k-menu-item name="brams">勃拉姆斯</k-menu-item>
+            </k-sub-menu>
+            <k-menu-item name="classic">古典主义</k-menu-item>
+        </k-sub-menu>
+        <k-menu-item name="rock">摇滚</k-menu-item>
+        <k-menu-item name="rb">R&B</k-menu-item>
+    </k-sub-menu>
+</k-menu>
 ```
 
 ## API
@@ -78,9 +78,9 @@ import {Menu, SubMenu, MenuItem} from 'king-ui'
 下方代码，title 的 slot 将作为标题展示，剩余两项为点击标题的展示结果。
 
 ```
- <z-sub-menu name="sub2">
+ <k-sub-menu name="sub2">
     <template slot="title">古典音乐</template>
-    <z-menu-item name="baLuoKe">巴洛克主义</z-menu-item>
-    <z-menu-item name="classic">古典主义</z-menu-item>
-</z-sub-menu>
+    <k-menu-item name="baLuoKe">巴洛克主义</k-menu-item>
+    <k-menu-item name="classic">古典主义</k-menu-item>
+</k-sub-menu>
 ```

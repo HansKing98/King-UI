@@ -1,6 +1,6 @@
 <template>
-    <div class="z-menu-wrapper">
-        <div class="z-menu" :class="{'z-menu-vertical': vertical}">
+    <div class="k-menu-wrapper">
+        <div class="k-menu" :class="{'k-menu-vertical': vertical}">
             <slot></slot>
         </div>
     </div>
@@ -9,7 +9,7 @@
 
 <script>
     export default {
-        name: "zMenu",
+        name: "kMenu",
         data() {
             return {
                 selectedPath: [],
@@ -60,10 +60,10 @@
 <style scoped lang="scss">
     @import "../../../styles/var";
 
-    .z-menu {
+    .k-menu {
         display: flex;
         font-size: $font-size;
-        &.z-menu-vertical {
+        &.k-menu-vertical {
             display: inline-flex;
             flex-direction: column;
         }

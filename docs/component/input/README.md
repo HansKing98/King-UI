@@ -20,11 +20,11 @@ import {Input} from 'king-ui'
 
 ::: details 点击查看源码
 ```vue 
-<z-input placeholder="正常" v-model="message"></z-input>
-<z-input placeholder="禁用" disabled></z-input>
-<z-input placeholder="只读" read-only value="我是只读"></z-input>
-<z-input placeholder="错误信息在默认位置" error-position="right" error="错误信息"></z-input>
-<z-input placeholder="错误信息在下方" error-position="bottom" error="错误信息"></z-input>
+<k-input placeholder="正常" v-model="message"></k-input>
+<k-input placeholder="禁用" disabled></k-input>
+<k-input placeholder="只读" read-only value="我是只读"></k-input>
+<k-input placeholder="错误信息在默认位置" error-position="right" error="错误信息"></k-input>
+<k-input placeholder="错误信息在下方" error-position="bottom" error="错误信息"></k-input>
 ```
 :::
 

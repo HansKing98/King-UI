@@ -1,33 +1,33 @@
 <template>
     <div class="input-demo">
         <div>
-            <z-input placeholder="正常" v-model="message"></z-input>
+            <k-input placeholder="正常" v-model="message"></k-input>
             {{message}}
         </div>
         <div>
-            <z-input placeholder="禁用" disabled></z-input>
+            <k-input placeholder="禁用" disabled></k-input>
         </div>
         <div>
-            <z-input placeholder="只读" read-only value="我是只读"></z-input>
+            <k-input placeholder="只读" read-only value="我是只读"></k-input>
         </div>
         <div>
-            <z-input placeholder="错误信息在默认位置" error-position="right" error="错误信息"></z-input>
+            <k-input placeholder="错误信息在默认位置" error-position="right" error="错误信息"></k-input>
         </div>
        <div>
-           <z-input placeholder="错误信息在下方" error-position="bottom" error="错误信息"></z-input>
+           <k-input placeholder="错误信息在下方" error-position="bottom" error="错误信息"></k-input>
        </div>
 
     </div>
 </template>
 <script>
-    import ZInput from '../components/Input/input'
+    import KInput from '../components/Input/input'
 
     export default {
         name: 'InputDemo',
-        components: {ZInput},
+        components: {KInput},
         data() {
             return {
-                message: 'Hi, ZUI!'
+                message: 'Hi, KingUI!'
             }
 
         }

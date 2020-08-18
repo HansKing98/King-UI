@@ -1,26 +1,26 @@
 <template>
-    <div class="z-sub-menu" :class="{'z-sub-menu-vertical': vertical}"
+    <div class="k-sub-menu" :class="{'k-sub-menu-vertical': vertical}"
          @mouseenter="onMouseEnter"
          @mouseleave="onMouseLeave"
     >
 
-        <div class="z-sub-menu-title" :class="{active}" @click="onClick">
+        <div class="k-sub-menu-title" :class="{active}" @click="onClick">
             <slot name="title"></slot>
-            <z-icon class="icon" name="right" :class="{open: visible}"></z-icon>
+            <k-icon class="icon" name="right" :class="{open: visible}"></k-icon>
         </div>
         <template v-if="vertical">
             <transition @enter="enter" @leave="leave"  @after-leave="afterLeave"
                         @after-enter="afterEnter">
-                <div class="z-sub-menu-transparent-bg" v-show="visible">
-                    <div class="z-sub-menu-content">
+                <div class="k-sub-menu-transparent-bg" v-show="visible">
+                    <div class="k-sub-menu-content">
                         <slot></slot>
                     </div>
                 </div>
             </transition>
         </template>
         <template v-else>
-            <div class="z-sub-menu-transparent-bg" v-show="visible">
-                <div class="z-sub-menu-content" >
+            <div class="k-sub-menu-transparent-bg" v-show="visible">
+                <div class="k-sub-menu-content" >
                     <slot></slot>
                 </div>
             </div>
@@ -30,11 +30,11 @@
 </template>
 
 <script>
-    import ZIcon from '../../icon'
+    import KIcon from '../../icon'
 
     export default {
-        name: "ZSubMenu",
-        components: {ZIcon},
+        name: "KSubMenu",
+        components: {KIcon},
         inject: ['root'],
         data() {
             return {
@@ -119,7 +119,7 @@
 <style scoped lang="scss">
     @import "../../../styles/var";
 
-    .z-sub-menu {
+    .k-sub-menu {
         position: relative;
         &-title {
             padding: 8px 12px;
@@ -160,7 +160,7 @@
             left: 100%;
             padding-right: 10px;
             background-color: transparent;
-            z-index: 1;
+            k-index: 1;
         }
         &-content {
             display: flex;
@@ -173,12 +173,12 @@
         }
     }
 
-    .z-menu > .z-sub-menu > .z-sub-menu-transparent-bg {
+    .k-menu > .k-sub-menu > .k-sub-menu-transparent-bg {
         top: 100%;
         left: 0;
     }
 
-    .z-menu > .z-sub-menu > .z-sub-menu-title .icon {
+    .k-menu > .k-sub-menu > .k-sub-menu-title .icon {
         margin-left: 1em;
         transform: rotate(90deg);
         &.open {
@@ -186,15 +186,15 @@
         }
     }
 
-    .z-sub-menu.z-sub-menu-vertical {
-        .z-sub-menu-transparent-bg {
+    .k-sub-menu.k-sub-menu-vertical {
+        .k-sub-menu-transparent-bg {
             position: static;
             padding-right: 10px;
-            z-index: 1;
+            k-index: 1;
             overflow: hidden;
             transition: height 250ms;
         }
-        .z-sub-menu-content {
+        .k-sub-menu-content {
             background: white;
             color: $text-color;
             box-shadow: none;

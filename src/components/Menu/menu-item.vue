@@ -1,12 +1,12 @@
 <template>
-    <div class="z-menu-item" @click="onClick" :class="{active}">
+    <div class="k-menu-item" @click="onClick" :class="{active}">
         <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: "ZMenuItem",
+        name: "KMenuItem",
         inject: ['root'],
 
         props: {
@@ -46,7 +46,7 @@
 <style scoped lang="scss">
     @import "../../../styles/var";
 
-    .z-menu-item {
+    .k-menu-item {
         padding: 8px 12px;
         display: inline-flex;
         white-space: nowrap;
