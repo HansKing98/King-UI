@@ -1,0 +1,12 @@
+/.idea/
+/docs/
+/src/
+/test/
+/public/
+*.js
+*.md
+*.sh
+*.json
+.*
+README
+LICENSE

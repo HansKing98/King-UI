@@ -1,28 +1,49 @@
-# k-form
-
-🤖总结Vue组件传值应用 模拟 el-form 并实现表单自动化单元测试
-
-<p align="center">
-	<img src="http://image.hansking.cn/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-16%20%E4%B8%8B%E5%8D%8811.47.04.png" alt="Sample"  width="250" >
-	<p align="center">
-		<em>无操作</em>
-	</p>
+<h1 align="center">Welcome to King UI 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.14-blue.svg?cacheSeconds=2592000" />
+  <a href="https://king-ui.hansking.cn" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/hansking98/king-ui/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
 </p>
 
-<p align="center">
-	<img src="http://image.hansking.cn/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-16%20%E4%B8%8B%E5%8D%8811.47.40.png" alt="Sample"  width="250" >
-	<p align="center">
-		<em>输入校验</em>
-	</p>
-</p>
+> King UI 的出现为了学习vue及组件开发而产生的项目, 不要用于生产环境。
 
-<p align="center">
-	<img src="http://image.hansking.cn/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-16%20%E4%B8%8B%E5%8D%8811.48.00.png" alt="Sample"  width="250" >
-	<p align="center">
-		<em>验证通过</em>
-	</p>
-</p>
+### 🏠 [Homepage](https://king-ui.hansking.cn/)
 
-### 自动化测试
+## Install
 
-![屏幕快照 2020-03-16 下午11.59.20.png](http://image.hansking.cn/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-16%20%E4%B8%8B%E5%8D%8811.59.20.png)
+```sh
+yarn add @hansking98/king-ui
+```
+
+## Run tests
+
+```sh
+yarn test
+```
+
+## Author
+
+👤 **Hans King**
+
+* Website: https://www.hansking.cn/
+* Github: [@Hansking98](https://github.com/hasnking98)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/hansking98/king-ui/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2020 [Hansking](https://www.hansking.cn).<br />
+This project is [MIT](https://github.com/hansking98/king-ui/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
