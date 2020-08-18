@@ -4,7 +4,7 @@
   <a href="https://king-ui.hansking.cn" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/hansking98/king-ui/LICENSE" target="_blank">
+  <a href="https://github.com/hansking98/king-ui/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
@@ -30,7 +30,7 @@ yarn test
 👤 **Hans King**
 
 * Website: https://www.hansking.cn/
-* Github: [@Hansking98](https://github.com/hasnking98)
+* Github: [@Hansking98](https://github.com/hansking98)
 
 ## 🤝 Contributing
 
@@ -43,7 +43,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2020 [Hansking](https://www.hansking.cn).<br />
-This project is [MIT](https://github.com/hansking98/king-ui/LICENSE) licensed.
+This project is [MIT](https://github.com/hansking98/king-ui/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
