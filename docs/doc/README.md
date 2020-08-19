@@ -3,11 +3,11 @@
 ## 下载
 
 ```shell script
-yarn add @wanmaoor/giaoui
+yarn add @hasnking98/king-ui
 
 # or
 
-npm i @wanmaoor/giaoui
+npm i @hasnking98/king-ui
 ```
 
 ## 使用
@@ -15,10 +15,10 @@ npm i @wanmaoor/giaoui
 在入口文件引入css样式:
 
 ```js
-  import "@wanmaoor/giaoui/dist/giaoui.css"
+  import "@hasnking98/king-ui/dist/king-ui.css"
 ```
 
-在组件里引用giaoui:
+在组件里引用kingui:
 ```js
-  import {Button} from "@wanmaoor/giaoui"
+  import {Button} from "@hasnking98/king-ui"
 ```
